@@ -52,7 +52,7 @@ export default function Home() {
       {
         x: 0,
         opacity: 1,
-        duration: 3,
+        duration: 1.5,
         ease: "power4.out",
       }
     );
@@ -79,31 +79,31 @@ export default function Home() {
       </div>
 
       <div ref={sectionRef} className="space-y-16 p-8">
-        <div className="fade-in bg-blue-500 text-white p-8 rounded-lg">
+        <div className="fade-in bg-blue-500 text-white p-8 rounded-lg w-full">
           Content Block 1
         </div>
-        <div className="fade-in bg-green-500 text-white p-8 rounded-lg">
+        <div className="fade-in bg-green-500 text-white p-8 rounded-lg w-full">
           Content Block 2
         </div>
-        <div className="fade-in bg-purple-500 text-white p-8 rounded-lg">
+        <div className="fade-in bg-purple-500 text-white p-8 rounded-lg w-full">
           Content Block 3
         </div>
-        <div className="fade-in bg-red-500 text-white p-8 rounded-lg">
+        <div className="fade-in bg-red-500 text-white p-8 rounded-lg w-full">
           Content Block 4
         </div>
-        <div className="fade-in bg-yellow-500 text-white p-8 rounded-lg">
+        <div className="fade-in bg-yellow-500 text-white p-8 rounded-lg w-full">
           Content Block 5
         </div>
-        <div className="fade-in bg-gray-500 text-white p-8 rounded-lg">
+        <div className="fade-in bg-gray-500 text-white p-8 rounded-lg w-full">
           Content Block 6
         </div>
-        <div className="fade-in bg-teal-500 text-white p-8 rounded-lg">
+        <div className="fade-in bg-teal-500 text-white p-8 rounded-lg w-full">
           Content Block 7
         </div>
-        <div className="fade-in bg-orange-500 text-white p-8 rounded-lg">
+        <div className="fade-in bg-orange-500 text-white p-8 rounded-lg w-full">
           Content Block 8
         </div>
-        <div className="fade-in bg-pink-500 text-white p-8 rounded-lg">
+        <div className="fade-in bg-pink-500 text-white p-8 rounded-lg w-full">
           Content Block 9
         </div>
       </div>
