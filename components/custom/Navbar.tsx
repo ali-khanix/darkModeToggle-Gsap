@@ -3,7 +3,7 @@ import ToggleTheme from "./ToggleTheme";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between p-6 dark:bg-white ">
+    <nav className="flex justify-between items-center p-6 dark:bg-white ">
       <div className="dark:text-black font-bold">
         DARK<span className="text-teal-700">MODE</span>
       </div>

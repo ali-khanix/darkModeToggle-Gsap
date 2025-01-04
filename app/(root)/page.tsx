@@ -28,7 +28,7 @@ export default function Home() {
       <Navbar />
       <div
         ref={boxRef}
-        className={`mx-auto w-full max-w-sm border-2 border-border rounded-lg bg-card p-8 mt-[50%]`}
+        className={`mx-auto w-full max-w-sm border-2 border-border rounded-lg bg-card p-8 mt-32`}
       >
         <h4 className="mb-4 mt-2 w-full text-3xl font-bold text-copy-primary">
           Dark Mode

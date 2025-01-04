@@ -21,13 +21,19 @@ const ToggleTheme = () => {
     }
   }, [darkMode]);
   return (
-    <Button
-      className="relative w-16 h-8 flex items-center text-white dark:bg-white  bg-black rounded-full p-1"
-      onClick={() => setDarkMode(!darkMode)}
-    >
-      <SunMoon className="text-white dark:text-black" size={18} />
-      <div className="absolute bg-white dark:bg-medium rounded-full shadow-md transform transition-transform duration-300"></div>
-    </Button>
+    <div className="flex flex-col">
+      <Button
+        className=" text-white dark:bg-white  bg-black rounded-full p-3"
+        onClick={() => setDarkMode(!darkMode)}
+      >
+        <SunMoon className="text-white dark:text-black" size={18} />
+        <p className="text-white dark:text-black">
+          Click me to change the theme
+        </p>
+      </Button>
+
+      <span></span>
+    </div>
   );
 };
 
